@@ -5,6 +5,33 @@
       "Version": "2",
       "Steps": [
         {
+          "Action": "delete",
+          "Source": null,
+          "Target": "mods\\rhino-forge-2001.2.3-build.6.jar",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 0
+        },
+        {
+          "Action": "delete",
+          "Source": null,
+          "Target": "mods\\torchflower_arrows-1.20.1-1.0.jar",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 0
+        },
+        {
+          "Action": "delete",
+          "Source": null,
+          "Target": "resourcepacks\\armory-conglomery-v2.zip",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 0
+        },
+        {
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/attributefix.json",
           "Target": "config\\attributefix.json",
@@ -18,6 +45,24 @@
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/clayworks-common.toml",
           "Target": "config\\clayworks-common.toml",
           "Sha256": "e95c94ca00a4d75e512aa21c77ebd94750d323123f08e6bdd831bebf025269b0",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/create_jetpack-client.toml",
+          "Target": "config\\create_jetpack-client.toml",
+          "Sha256": "3ef10cf780e735b417be86d1ef29bb72fc9257250a4d5224bf9168d4978e93c9",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/create_jetpack-common.toml",
+          "Target": "config\\create_jetpack-common.toml",
+          "Sha256": "f44a37f95b0817c8d398989ed0e11f1ad7fe32024db781dc7c612f64e5f2463a",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -54,6 +99,15 @@
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/hearthandharvest-common.toml",
           "Target": "config\\hearthandharvest-common.toml",
           "Sha256": "1604d08a18e5a2fb0a730cafbef087e757404ca70b489a8683a57882c6a6059f",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/item_obliterator.json5",
+          "Target": "config\\item_obliterator.json5",
+          "Sha256": "367e296be8dc7e9bb791c553acc0fca43a228eb440a9e6661fc7746426200b21",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -98,7 +152,7 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/oculus.properties",
           "Target": "config\\oculus.properties",
-          "Sha256": "7486d25f0606d12d9b974f367b6952685c484a870ce0365576269f718a3ef7aa",
+          "Sha256": "93a1d7675cead02c7a57f3980873bc5069f8c5c3e920c8c0cf7f862763e17b7d",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -116,7 +170,7 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/packetfixer.properties",
           "Target": "config\\packetfixer.properties",
-          "Sha256": "6df3b1b15b8874ade53e61223ed9387893b136f90b1b67bb984ee495e42a8009",
+          "Sha256": "70c34263ba75f482e16722f2891f602b230ed1259d9d615a2d96175d80e192a5",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -141,9 +195,27 @@
         },
         {
           "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/quark-common.toml",
+          "Target": "config\\quark-common.toml",
+          "Sha256": "33fc61b097b3bdfca2bcd1297d6fa18cc1a7bd8cbe34872b02b117af4c962784",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/sp-client.toml",
+          "Target": "config\\sp-client.toml",
+          "Sha256": "19207f05b5ba352a7437983b03d100b2de0fa5e24da4cc14eb1acbfe3b125952",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/spoiled-common.toml",
           "Target": "config\\spoiled-common.toml",
-          "Sha256": "fb5816c769fd78830124b336a6b82596a12459afee30c093d0cb1091d703b1f7",
+          "Sha256": "179826d8c03437b4888f419eca1f02d1add910ec195d1ab793fbae962cb4bcef",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -152,7 +224,16 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/travellersbootsreloaded.properties",
           "Target": "config\\travellersbootsreloaded.properties",
-          "Sha256": "be9ead6842cf798a16a643708d6e9f9f739531f793934313b3df9253cffbcc15",
+          "Sha256": "8753061e387c1b10908025dd02f68c72223ade18f5c2dafbeb5a4af7c8c87388",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/xenon-fingerprint.json",
+          "Target": "config\\xenon-fingerprint.json",
+          "Sha256": "c8a8e0dc1ba98aaba47f05a0d11dc524c084fbf4cc84ea4dfdd7f775aeb8bb5a",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -180,6 +261,24 @@
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/create-clayworks-compatibility-1.0.jar",
           "Target": "mods\\create-clayworks-compatibility-1.0.jar",
           "Sha256": "8b5835a5914bdf946b8b0dfd2ffc230a18f394241dae4cf46fd014af7419ad12",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/create_jetpack-forge-4.3.2.jar",
+          "Target": "mods\\create_jetpack-forge-4.3.2.jar",
+          "Sha256": "45aa6ab04ef9e8e6d761cf4e7807e2f21f0d9b45cf584406d1e8893bc205c174",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/create_pneuequip-0.2-forge-1.20.1.jar",
+          "Target": "mods\\create_pneuequip-0.2-forge-1.20.1.jar",
+          "Sha256": "c595e52b721af821db6caafe0ccc044afa832c58c0a3e4391187c729a5b50e82",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -231,6 +330,15 @@
         },
         {
           "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/metallurgy_dont_pull_mold-1.0.0-1.20.1.jar",
+          "Target": "mods\\metallurgy_dont_pull_mold-1.0.0-1.20.1.jar",
+          "Sha256": "02fcbba7f2c8292eaf57c587938d4b185e3252c1bc3b7ea6ae9ba54da760ab00",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/minecraft-cursor-forge-3.9.0\u002B1.20.1.jar",
           "Target": "mods\\minecraft-cursor-forge-3.9.0\u002B1.20.1.jar",
           "Sha256": "b6e7eafde1745890650250fc2b4cea9026fb6615155e8065c463425360f7ded5",
@@ -267,6 +375,15 @@
         },
         {
           "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/origins-classes-forge-1.2.1.jar",
+          "Target": "mods\\origins-classes-forge-1.2.1.jar",
+          "Sha256": "ed319f8023b64bcc4543721c4f29a0297ce26470838a60385c89dadbeb12960c",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/ParCool-1.20.1-3.4.0.7.jar",
           "Target": "mods\\ParCool-1.20.1-3.4.0.7.jar",
           "Sha256": "c380895a23a6a05614850d2995812289f19b02f7d4f6f9bce26e4f36eb0a52ce",
@@ -285,9 +402,126 @@
         },
         {
           "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/rhino-forge-2001.2.3-build.10.jar",
+          "Target": "mods\\rhino-forge-2001.2.3-build.10.jar",
+          "Sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/sp-1.20.1-1.6.5.jar",
+          "Target": "mods\\sp-1.20.1-1.6.5.jar",
+          "Sha256": "5ae66a94221655d7bc2e677168ef3d47c171479eaec62819c17e86f2cb7e19da",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/3D-fishing-hook-bobber-v2.1-fancy-with-line.zip",
+          "Target": "resourcepacks\\3D-fishing-hook-bobber-v2.1-fancy-with-line.zip",
+          "Sha256": "0a7c54f7446ec16f098c8a73c43214f2c85d50cfc5fb0cfcdbf2b18940f82370",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/BOP_Renewed_v1.6.zip",
+          "Target": "resourcepacks\\BOP_Renewed_v1.6.zip",
+          "Sha256": "8dddb1c06a8a25f765e4d00f9bc29b6ec89bf9a0f958ffcbd2ac1a8983b2eec8",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/Create Re-Created 1.3.zip",
+          "Target": "resourcepacks\\Create Re-Created 1.3.zip",
+          "Sha256": "65ef7da55bd66ebd6a8396a7bb596e07021f37ce8037a9c41ab54a407ab4300f",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/FarmersDelightExcaliburSupport.zip",
+          "Target": "resourcepacks\\FarmersDelightExcaliburSupport.zip",
+          "Sha256": "9a78dee9f321f87db6f674728e8510052b7eb64ee1520eeffe868cc78b4ac1c9",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/Fishing_Rod_3D.zip",
+          "Target": "resourcepacks\\Fishing_Rod_3D.zip",
+          "Sha256": "f407ae37a4efde967631206dc7a16275e5789ea80e65e56068f8f20e689a6a6e",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/Os\u0027 Crops.zip",
+          "Target": "resourcepacks\\Os\u0027 Crops.zip",
+          "Sha256": "565326455a81c39894634f569e2db01a15d00c94382bd1dde4a3c2b1353a65eb",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/Rabbit Villagers Addon 1.4.zip",
+          "Target": "resourcepacks\\Rabbit Villagers Addon 1.4.zip",
+          "Sha256": "3849848e4897155c39f472549dea9ecd1888b8f02c791a24d749590d149b7176",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/RabbitVillager v.1.0.zip",
+          "Target": "resourcepacks\\RabbitVillager v.1.0.zip",
+          "Sha256": "d098b96ecef4f8a1f095ad270032f45c8eb2e7324c2e8aa64855473fd625dc21",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/ribbits.ru.zip",
+          "Target": "resourcepacks\\ribbits.ru.zip",
+          "Sha256": "0efdf856f3f6951ff03f01fe46fa04926c8c2e2e2ba35440dc4fece30a4229db",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip",
+          "Target": "resourcepacks\\Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip",
+          "Sha256": "e252d19339d689c742cedae3a9b8a8eed76a03860716fd71c5244d3aa9d5f941",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/resourcepacks/riftfall.zip",
+          "Target": "resourcepacks\\riftfall.zip",
+          "Sha256": "08475df7c4b8d0cdff75a3e9ac2a73c154d71acf38fc1abe66e21796613030e8",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/asyncparticles/asyncparticles-mixin.properties",
           "Target": "config\\asyncparticles\\asyncparticles-mixin.properties",
-          "Sha256": "dcb81a6bcc8232ab37b3d21c46b328b8953d0a0aea8e1eb1ea8d2c0ca61fc426",
+          "Sha256": "af413947af478feda6403c944bdb425321d5023bfd05cde008ad91f579576f91",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -305,7 +539,7 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/fabric/indigo-renderer.properties",
           "Target": "config\\fabric\\indigo-renderer.properties",
-          "Sha256": "68b8c2ce8a53683f7da30625f769873687dae85848f25be047e9d6506545e6d7",
+          "Sha256": "d4607b6c89fcab6afae71295c80fb783d776e67f315058c34774a4da220bab5c",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -332,7 +566,7 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/sound_physics_remastered/allowed_sounds.properties",
           "Target": "config\\sound_physics_remastered\\allowed_sounds.properties",
-          "Sha256": "ede383d9c2207f719be53d7e1c81a4677205ea5e67d7deb20929a9a75e5ec342",
+          "Sha256": "4d3594d52ddde3bcae8bd3c3bd5fd9c87ebae38245dd1c01d2a502d59c4efac9",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -341,7 +575,7 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/sound_physics_remastered/occlusion.properties",
           "Target": "config\\sound_physics_remastered\\occlusion.properties",
-          "Sha256": "ac548131ae689b7f27439c4e2bd5fc60e188bb68d24dc4140de889d93f98dee1",
+          "Sha256": "1993c03317adf1cb6b25aa7b5d5cb6215bd76e2687cf6bc9c95adbe088142ea3",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -350,7 +584,16 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/sound_physics_remastered/reflectivity.properties",
           "Target": "config\\sound_physics_remastered\\reflectivity.properties",
-          "Sha256": "fcb8b17402ba6bf3a50a0bc738711321b62ee7cddec1f7069f4934e87eb9fb45",
+          "Sha256": "825a736b8ca9085217388ac3e004ebee414d903b2783dd351b71c37c85e686d8",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/config/probe-settings.json",
+          "Target": "kubejs\\config\\probe-settings.json",
+          "Sha256": "d31c1a6740d15f434c95c185581d48aac17c423f43d9ac4d712c6954f9a11d52",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -359,7 +602,160 @@
           "Action": "copy",
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/example.js",
           "Target": "kubejs\\server_scripts\\example.js",
-          "Sha256": "2c8243f2510a13de99d5cd6c88aaffc3fe17d5ee69d63b466add74fa6687fe9e",
+          "Sha256": "1111237a31bca2dd5ffb6412ce2902de021c90df765dbd5f7da2262875ab0eb4",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/fix.js",
+          "Target": "kubejs\\server_scripts\\fix.js",
+          "Sha256": "19872e8c01a559554c2cf7f02e0dc3be670bf874ed7c43b59f768534a171cfb3",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/medicine.js",
+          "Target": "kubejs\\server_scripts\\medicine.js",
+          "Sha256": "e7214bf36da941b404e2ba1ab334656765fe1bc84bb8241adaa25d643a491fdb",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/pickled_food.js",
+          "Target": "kubejs\\server_scripts\\pickled_food.js",
+          "Sha256": "d083462f79e56e0126b9eca8d2fec7ab516f0a41e5a5f3561daf38cd7334b89d",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/pnetools.js",
+          "Target": "kubejs\\server_scripts\\pnetools.js",
+          "Sha256": "4498ed1c6650c84e41fe656102eca15246fc92d8b9cf09f29ca055311e24a6e8",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/server_scripts/start_food.js",
+          "Target": "kubejs\\server_scripts\\start_food.js",
+          "Sha256": "fe6d3babefd9f65d6de7379475942590299a06ddfd8a8ad8ed0bb684a37b6228",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/startup_scripts/example.js",
+          "Target": "kubejs\\startup_scripts\\example.js",
+          "Sha256": "b46e5bbc071b6cafa7acfb4bbfafb3f3fcd4d61b9a69337b72ac627a9e79350d",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/startup_scripts/juice.js",
+          "Target": "kubejs\\startup_scripts\\juice.js",
+          "Sha256": "299919ec7bf476263281986587457ce1e654578a98f5bdea150fa696d82fead3",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/startup_scripts/pickled_food.js",
+          "Target": "kubejs\\startup_scripts\\pickled_food.js",
+          "Sha256": "1ba3c57bb494dd9aee883be34fe5f3380909ae9e901e0a08e5477d6d5853d306",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/.connector/repairsmith-1.0.0_mapped_srg_1.20.1.jar",
+          "Target": "mods\\.connector\\repairsmith-1.0.0_mapped_srg_1.20.1.jar",
+          "Sha256": "26dea1c6494bf712b14e35779b523281d499274be30e1abe8215986c06792606",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/mods/.connector/repairsmith-1.0.0_mapped_srg_1.20.1.jar.input",
+          "Target": "mods\\.connector\\repairsmith-1.0.0_mapped_srg_1.20.1.jar.input",
+          "Sha256": "5741873f9dab5b40cea67840aa11ff6cb94135ae9a5a8de6c7e68f76cfa44dee",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/legendarysurvivaloverhaul/json/blockTemperatures.json",
+          "Target": "config\\legendarysurvivaloverhaul\\json\\blockTemperatures.json",
+          "Sha256": "f2f442886c07a6e8716c93a7a0695cafce906a1142728a8d7ed1fe62d813dd4a",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/legendarysurvivaloverhaul/json/thirstConsumables.json",
+          "Target": "config\\legendarysurvivaloverhaul\\json\\thirstConsumables.json",
+          "Sha256": "8b4d40227a833a19100075bad1adf7f7d4127bc4cb63b0231c2ccca0ff522912",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/paxi/datapacks/Minecolonies Crop Fix.zip",
+          "Target": "config\\paxi\\datapacks\\Minecolonies Crop Fix.zip",
+          "Sha256": "f82cad46845451dc3ac41be33cfb2503d219e19fd1af1cd4b385a84f604edc95",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/paxi/datapacks/MinecoloniesResearch.zip",
+          "Target": "config\\paxi\\datapacks\\MinecoloniesResearch.zip",
+          "Sha256": "cbfc1f158f87b7490f0265f76319c835a269a4967aa8414729e477d74184e560",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/paxi/datapacks/minecolonies_free_research-1.1.0.jar",
+          "Target": "config\\paxi\\datapacks\\minecolonies_free_research-1.1.0.jar",
+          "Sha256": "b73733bdf5f392f044d29d87657c18ce3a015efe9ddcc51060cd50ce25d275d9",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/ftbquests/quests/chapters/0.snbt",
+          "Target": "config\\ftbquests\\quests\\chapters\\0.snbt",
+          "Sha256": "4994eae742053815f4d7e8a6dc8b405156badc42870dcd75f340983e0795b623",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/config/ftbquests/quests/chapters/farmers_delight.snbt",
+          "Target": "config\\ftbquests\\quests\\chapters\\farmers_delight.snbt",
+          "Sha256": "6cb0488d898bd00bdf2ebdcee7cf9d9729d60545f9d555ca6502486edef0aa8d",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -369,6 +765,159 @@
           "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/ldlib/assets/mbd2/recipe_type/cold_furnace.rt",
           "Target": "ldlib\\assets\\mbd2\\recipe_type\\cold_furnace.rt",
           "Sha256": "2dd4d09511315c3045575f832925630c2f6c0e4c521ccb21c5c047622dd84a49",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/block/wall_stone.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\block\\wall_stone.png",
+          "Sha256": "e297e666f9acf4a3172b1de8a7db91cf9d8e163480c5a1d2198a2f7e42169d8f",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/blueberry_juice.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\blueberry_juice.png",
+          "Sha256": "0b903875958f4536dcc167b45a539e69a9139d9a82162752cbf442f3a15570af",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/cherry_juice.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\cherry_juice.png",
+          "Sha256": "65b738ed327a7f617e0f29ad22b312dc12f2a5e05733bc2232c210259529d447",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/fermented_berry.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\fermented_berry.png",
+          "Sha256": "30888b7be60eaa1e6bbf0f174ed089b7979b7e9405dbf700e1eddb2f5ee9104d",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/fermented_fish.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\fermented_fish.png",
+          "Sha256": "f0cce7f7f5d5f10904821e6e1c74187f90878a3aed93c33bcc3127bbacffaafd",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/fermented_meats.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\fermented_meats.png",
+          "Sha256": "6b2bad4e399a260cad7ece961a63ee3d15ae1b99096f17ad2e2ea37350bf4e2a",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/fermented_vegetables.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\fermented_vegetables.png",
+          "Sha256": "8a20535aa48cdeda94363c0962b461134e38a7a9fc50a96e570f01a036a2eefd",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/green_grape_juice.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\green_grape_juice.png",
+          "Sha256": "0732eea6610eba1504f903f7e242a529e3c20eba7243dd8e3755044873d03ba0",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/jar.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\jar.png",
+          "Sha256": "1b0d6d3933d0e9054be05054efb58de0dde969c1960d1a9e7ed8ce6ef7f94138",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/peanut_butter.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\peanut_butter.png",
+          "Sha256": "c18449b9aab6c1f16781722aa9570ff5eb394eeec0b1b998dcba6345f0e22651",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/pickled_fish.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\pickled_fish.png",
+          "Sha256": "2f585a10516e17bbf3588cdeea3a93d4fbe05ec3639d43667da7ea69c04e2cec",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/pickled_meats.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\pickled_meats.png",
+          "Sha256": "eb61a76a5652d9e0daa315a040bdc7a75e2f162daf58a055770f25531ddebba2",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/pickled_vegetables.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\pickled_vegetables.png",
+          "Sha256": "6883d9787ca4cca2823cb513db006c66c55d431866a802879a4b5c6c7a637f8f",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/raspberry_juice.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\raspberry_juice.png",
+          "Sha256": "ac4c544d1616cb9b89dab5ad6f23ed5da6e829a7fe43c0933f378e21ed298c6c",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/red_grape_juice.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\red_grape_juice.png",
+          "Sha256": "4f7a98589c30f51cafd6b95ad5a486b375cbf25482ed4d355c49c382b9fa4bd2",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/sweet_jam.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\sweet_jam.png",
+          "Sha256": "e6bdab5202a28d941588faac08230926052eec026cae9a9f89850cb9bd9ced64",
+          "Branch": "update2.0",
+          "InsertIndex": null,
+          "Priority": 1
+        },
+        {
+          "Action": "copy",
+          "Source": "https://raw.githubusercontent.com/kirN-dev/UpdateRepository/refs/heads/update2.0/kubejs/assets/kubejs/textures/item/uncompleted_jar.png",
+          "Target": "kubejs\\assets\\kubejs\\textures\\item\\uncompleted_jar.png",
+          "Sha256": "a074308b37ae2959ef2f3b793d4d794013e8fa18122725f8e8c342abf22f88b5",
           "Branch": "update2.0",
           "InsertIndex": null,
           "Priority": 1
@@ -592,7 +1141,7 @@
         {
           "Action": "path.add",
           "Source": "options.txt",
-          "Target": "resourcePacks:[\u0022vanilla\u0022,\u0022mod_resources\u0022,\u0022builtin/towntalk\u0022,\u0022file/Ashen_16x.zip\u0022,\u0022file/Ashen_FN_Remains_of_Chaos.zip\u0022,\u0022Moonlight Mods Dynamic Assets\u0022,\u0022RemainsOfChaosResources.zip\u0022,\u0022builtin/ancient_aether_texture_tweaks\u0022,\u0022fabric\u0022,\u0022hordes-config\u0022,\u0022netherexp:jne_retextures\u0022,\u0022file/FreshAnimations_v1.9.2.zip\u0022,\u0022file/mobs-refreshed-fa-v2.1.zip\u0022,\u0022file/Fear_Riftfall.zip\u0022,\u0022file/Create DG Sound Replacement 1.0 [1.18-1.18.2].zip\u0022,\u0022file/Fantasy Ores\u002B\u002B v4.zip\u0022,\u0022file/Fantasy_Ores_v7.1[classic].zip\u0022,\u0022file/Hardcore Torches.zip\u0022,\u0022file/mine-campfire-1.1.0.zip\u0022,\u0022file/cassette music discs 1.20 v1.2.zip\u0022,\u0022file/crops-3d.zip\u0022,\u0022file/Undopia_3D_Pointed_Dripstone_1.21.4_v.1.0.zip\u0022,\u0022file/CreateStorage.zip\u0022,\u0022file/Gray\\u0027s Villager Overhaul - Golem.zip\u0022,\u0022file/CassettePlayerV1.zip\u0022,\u0022file/Fancy_Beds-v3.4.zip\u0022,\u0022file/Nutria_DEDsafio2_v1.2.zip\u0022,\u0022file/Keeper.zip\u0022,\u0022file/Beeper!.zip\u0022,\u0022file/Legacy_0.5_Create_Darkmode_v0.0.1.zip\u0022,\u0022file/\u002B1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip\u0022,\u0022file/boss-refreshed-v1.4.zip\u0022,\u0022file/Ashen_No_Tree_Punching_Support_1.1.zip\u0022,\u0022file/EnderEyes_1.20.1_v3.zip\u0022,\u0022file/Ashen_Vanilla_Scaffolding.zip\u0022,\u0022file/CreateSophisticatedBackpacks.zip\u0022,\u0022file/Minecolonies Refreshed 3.2.0-1.20.1.zip\u0022,\u0022file/Arrow-1.3.2.zip\u0022,\u0022file/armory-conglomery-v2.zip\u0022,\u0022file/3D-muskets-1.1.zip\u0022,\u0022file/Fishing_Rod_3D.zip\u0022,\u0022file/FarmersDelightExcaliburSupport.zip\u0022,\u0022file/3D-fishing-hook-bobber-v2.1-fancy-with-line.zip\u0022,\u0022file/riftfall.zip\u0022]",
+          "Target": "resourcePacks:[\u0022vanilla\u0022,\u0022mod_resources\u0022,\u0022builtin/towntalk\u0022,\u0022file/Ashen_16x.zip\u0022,\u0022file/Ashen_FN_Remains_of_Chaos.zip\u0022,\u0022Moonlight Mods Dynamic Assets\u0022,\u0022RemainsOfChaosResources.zip\u0022,\u0022builtin/ancient_aether_texture_tweaks\u0022,\u0022fabric\u0022,\u0022hordes-config\u0022,\u0022netherexp:jne_retextures\u0022,\u0022file/FreshAnimations_v1.9.2.zip\u0022,\u0022file/mobs-refreshed-fa-v2.1.zip\u0022,\u0022file/Fear_Riftfall.zip\u0022,\u0022file/Create DG Sound Replacement 1.0 [1.18-1.18.2].zip\u0022,\u0022file/Fantasy Ores\u002B\u002B v4.zip\u0022,\u0022file/Fantasy_Ores_v7.1[classic].zip\u0022,\u0022file/Hardcore Torches.zip\u0022,\u0022file/mine-campfire-1.1.0.zip\u0022,\u0022file/cassette music discs 1.20 v1.2.zip\u0022,\u0022file/crops-3d.zip\u0022,\u0022file/Undopia_3D_Pointed_Dripstone_1.21.4_v.1.0.zip\u0022,\u0022file/CreateStorage.zip\u0022,\u0022file/Gray\\u0027s Villager Overhaul - Golem.zip\u0022,\u0022file/CassettePlayerV1.zip\u0022,\u0022file/Fancy_Beds-v3.4.zip\u0022,\u0022file/Keeper.zip\u0022,\u0022file/Beeper!.zip\u0022,\u0022file/Legacy_0.5_Create_Darkmode_v0.0.1.zip\u0022,\u0022file/\u002B1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip\u0022,\u0022file/boss-refreshed-v1.4.zip\u0022,\u0022file/Ashen_No_Tree_Punching_Support_1.1.zip\u0022,\u0022file/EnderEyes_1.20.1_v3.zip\u0022,\u0022file/Ashen_Vanilla_Scaffolding.zip\u0022,\u0022file/CreateSophisticatedBackpacks.zip\u0022,\u0022file/Minecolonies Refreshed 3.2.0-1.20.1.zip\u0022,\u0022file/Arrow-1.3.2.zip\u0022,\u0022file/3D-muskets-1.1.zip\u0022,\u0022file/Fishing_Rod_3D.zip\u0022,\u0022file/FarmersDelightExcaliburSupport.zip\u0022,\u0022file/3D-fishing-hook-bobber-v2.1-fancy-with-line.zip\u0022,\u0022file/Os\\u0027 Crops.zip\u0022,\u0022file/BOP_Renewed_v1.6.zip\u0022,\u0022file/RabbitVillager v.1.0.zip\u0022,\u0022file/Rabbit Villagers Addon 1.4.zip\u0022,\u0022file/Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip\u0022,\u0022file/ribbits.ru.zip\u0022,\u0022file/riftfall.zip\u0022]",
           "Sha256": null,
           "Branch": "update2.0",
           "InsertIndex": 44,
@@ -655,16 +1204,16 @@
         {
           "Action": "path.add",
           "Source": "options.txt",
-          "Target": "key_key.deep_dark_regrowth.special_ability:key.keyboard.unknown",
+          "Target": "key_key.create_pneuequip.spacja:key.keyboard.space",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 161,
+          "InsertIndex": 150,
           "Priority": 3
         },
         {
           "Action": "path.add",
           "Source": "options.txt",
-          "Target": "key_key.deep_dark_regrowth.laser_mask:key.keyboard.unknown",
+          "Target": "key_key.deep_dark_regrowth.special_ability:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
           "InsertIndex": 162,
@@ -673,10 +1222,19 @@
         {
           "Action": "path.add",
           "Source": "options.txt",
+          "Target": "key_key.deep_dark_regrowth.laser_mask:key.keyboard.unknown",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 163,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
           "Target": "key_key.spyglass_of_curios.use:key.keyboard.z",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 197,
+          "InsertIndex": 198,
           "Priority": 3
         },
         {
@@ -685,7 +1243,7 @@
           "Target": "key_key.azurelib.reload:key.keyboard.r:CONTROL",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 204,
+          "InsertIndex": 205,
           "Priority": 3
         },
         {
@@ -694,7 +1252,7 @@
           "Target": "key_key.sedparties.hover:key.keyboard.right.control",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 207,
+          "InsertIndex": 208,
           "Priority": 3
         },
         {
@@ -703,13 +1261,13 @@
           "Target": "key_key.origins.view_origin:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 215,
+          "InsertIndex": 216,
           "Priority": 3
         },
         {
           "Action": "path.add",
           "Source": "options.txt",
-          "Target": "key_create_tweaked_controllers.keybind.mouse_reset:key.keyboard.unknown",
+          "Target": "key_key.sp.lock:key.keyboard.u",
           "Sha256": null,
           "Branch": "update2.0",
           "InsertIndex": 217,
@@ -718,10 +1276,73 @@
         {
           "Action": "path.add",
           "Source": "options.txt",
+          "Target": "key_key.sp.sitting:key.keyboard.x",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 218,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_key.sp.crawling:key.keyboard.z",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 219,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_key.sp.zoom_in:key.keyboard.equal",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 220,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_key.sp.zoom_out:key.keyboard.minus",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 221,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_key.jetpack.toggle_active.description:key.keyboard.g",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 222,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_key.jetpack.toggle_hover.description:key.keyboard.h",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 223,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
+          "Target": "key_create_tweaked_controllers.keybind.mouse_reset:key.keyboard.unknown",
+          "Sha256": null,
+          "Branch": "update2.0",
+          "InsertIndex": 225,
+          "Priority": 3
+        },
+        {
+          "Action": "path.add",
+          "Source": "options.txt",
           "Target": "key_key.ntgl.reload:key.keyboard.r:CONTROL",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 254,
+          "InsertIndex": 262,
           "Priority": 3
         },
         {
@@ -730,7 +1351,7 @@
           "Target": "key_key.ntgl.attachments:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 256,
+          "InsertIndex": 264,
           "Priority": 3
         },
         {
@@ -739,7 +1360,7 @@
           "Target": "key_key.ntgl.inspect:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 257,
+          "InsertIndex": 265,
           "Priority": 3
         },
         {
@@ -748,7 +1369,7 @@
           "Target": "key_key.ntgl.fire_select:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 258,
+          "InsertIndex": 266,
           "Priority": 3
         },
         {
@@ -757,7 +1378,7 @@
           "Target": "key_key.ntgl.ammo_select:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 259,
+          "InsertIndex": 267,
           "Priority": 3
         },
         {
@@ -766,7 +1387,7 @@
           "Target": "key_railways.keyinfo.bogey_menu:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 270,
+          "InsertIndex": 278,
           "Priority": 3
         },
         {
@@ -775,7 +1396,7 @@
           "Target": "key_railways.keyinfo.cycle_menu:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 271,
+          "InsertIndex": 279,
           "Priority": 3
         },
         {
@@ -784,7 +1405,7 @@
           "Target": "key_key.crawlondemand.toggle_crawl:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 279,
+          "InsertIndex": 287,
           "Priority": 3
         },
         {
@@ -793,7 +1414,7 @@
           "Target": "key_create.keyinfo.toolbelt:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 285,
+          "InsertIndex": 293,
           "Priority": 3
         },
         {
@@ -802,7 +1423,7 @@
           "Target": "key_key.parcool.Enable:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 332,
+          "InsertIndex": 340,
           "Priority": 3
         },
         {
@@ -811,7 +1432,7 @@
           "Target": "key_key.parcool.Crawl:key.keyboard.c",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 333,
+          "InsertIndex": 341,
           "Priority": 3
         },
         {
@@ -820,7 +1441,7 @@
           "Target": "key_key.parcool.ClingToCliff:key.mouse.right",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 334,
+          "InsertIndex": 342,
           "Priority": 3
         },
         {
@@ -829,7 +1450,7 @@
           "Target": "key_key.parcool.Breakfall:key.keyboard.r",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 335,
+          "InsertIndex": 343,
           "Priority": 3
         },
         {
@@ -838,7 +1459,7 @@
           "Target": "key_key.parcool.FastRun:key.keyboard.left.control",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 336,
+          "InsertIndex": 344,
           "Priority": 3
         },
         {
@@ -847,7 +1468,7 @@
           "Target": "key_key.parcool.Dodge:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 337,
+          "InsertIndex": 345,
           "Priority": 3
         },
         {
@@ -856,7 +1477,7 @@
           "Target": "key_key.parcool.RideZipline:key.mouse.right",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 338,
+          "InsertIndex": 346,
           "Priority": 3
         },
         {
@@ -865,7 +1486,7 @@
           "Target": "key_key.parcool.WallSlide:key.mouse.right",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 339,
+          "InsertIndex": 347,
           "Priority": 3
         },
         {
@@ -874,7 +1495,7 @@
           "Target": "key_key.parcool.WallJump:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 340,
+          "InsertIndex": 348,
           "Priority": 3
         },
         {
@@ -883,7 +1504,7 @@
           "Target": "key_key.parcool.Vault:key.mouse.right",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 341,
+          "InsertIndex": 349,
           "Priority": 3
         },
         {
@@ -892,7 +1513,7 @@
           "Target": "key_key.parcool.HorizontalWallRun:key.keyboard.r",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 342,
+          "InsertIndex": 350,
           "Priority": 3
         },
         {
@@ -901,7 +1522,7 @@
           "Target": "key_key.parcool.HideInBlock:key.keyboard.c",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 343,
+          "InsertIndex": 351,
           "Priority": 3
         },
         {
@@ -910,7 +1531,7 @@
           "Target": "key_key.parcool.openSetting:key.keyboard.p:ALT",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 344,
+          "InsertIndex": 352,
           "Priority": 3
         },
         {
@@ -919,7 +1540,7 @@
           "Target": "key_key.parcool.QuickTurn:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 345,
+          "InsertIndex": 353,
           "Priority": 3
         },
         {
@@ -928,7 +1549,7 @@
           "Target": "key_key.parcool.Flipping:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 346,
+          "InsertIndex": 354,
           "Priority": 3
         },
         {
@@ -937,7 +1558,7 @@
           "Target": "key_key.parcool.HangDown:key.mouse.right",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 347,
+          "InsertIndex": 355,
           "Priority": 3
         },
         {
@@ -946,16 +1567,16 @@
           "Target": "key_key.refinedstorageaddons.openWirelessCraftingGrid:key.keyboard.unknown",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 348,
+          "InsertIndex": 356,
           "Priority": 3
         },
         {
           "Action": "path.add",
           "Source": "options.txt",
-          "Target": "soundCategory_music:0.08450704225352113",
+          "Target": "soundCategory_music:0.06338028169014084",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 353,
+          "InsertIndex": 361,
           "Priority": 3
         },
         {
@@ -964,7 +1585,7 @@
           "Target": "soundCategory_record:0.5",
           "Sha256": null,
           "Branch": "update2.0",
-          "InsertIndex": 354,
+          "InsertIndex": 362,
           "Priority": 3
         }
       ],
